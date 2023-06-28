@@ -293,7 +293,7 @@
       flex: 1;
     }
     :root {
-        nav-item-margin: 0;
+        --nav-item-margin: 0;
     }
   }
   
