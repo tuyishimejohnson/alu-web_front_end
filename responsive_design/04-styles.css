@@ -300,18 +300,16 @@
   /* Header
       ============================= */
   
-  .header {
+  .header .nav {
     padding: var(--header-padding);
     position: relative;
     z-index: 3;
     background: transparent;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height .2s ease-out;
     
-    .nav {
-        flex-direction: column;
-        overflow: hidden;
-        max-height: 0;
-        transition: max-height .2s ease-out;
-    }
   }
   
   .header-container {
